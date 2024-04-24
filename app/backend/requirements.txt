@@ -1,3 +1,14 @@
+- `aiofiles==23.2.1`: Required for asynchronous file handling.
+- `aiohttp==3.9.3`: Required for asynchronous HTTP requests.
+- `aiosignal==1.3.1`: Required for handling signals in an asynchronous context.
+- `annotated-types==0.6.0`: Required for type annotations.
+- `anyio==4.3.0`: Required for compatibility with multiple asynchronous event loops.
+- `asgiref==3.7.2`: Required for ASGI compatibility.
+- `attrs==23.2.0`: Required for writing classes without boilerplate.
+- `azure-ai-documentintelligence==1.0.0b2`: Required for AI document intelligence services from Azure.
+- `azure-common==1.1.28`: Required for common Azure functionalities.
+- `azure-core==1.30.1`: Required for core Azure functionalities.
+- `azure-core-tracing-opentelemetry==1.0.0b11`: Required for OpenTelemetry tracing with Azure.
 #
 with open('/c:/Users/azureuser/azure-search-openai-demo/azure-search-openai-demo/app/backend/requirements.txt', 'r') as file:
     requirements = file.readlines()
