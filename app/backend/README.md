@@ -1,3 +1,4 @@
+
 # Backend
 
 ## Description
@@ -43,3 +44,18 @@ The backend of this application has several dependencies that are necessary for 
 - `azure-core-tracing-opentelemetry==1.0.0b11`: Required for OpenTelemetry tracing with Azure.
 
 Please note that the versions listed are the ones that were used at the time of writing and may be updated in the future. Always refer to the `requirements.txt` file for the most up-to-date list of dependencies.
+
+# Suggestions
+def calculate_area(length, width):
+    """
+    Calculates the area of a rectangle.
+
+    Parameters:
+    length (float): The length of the rectangle.
+    width (float): The width of the rectangle.
+
+    Returns:
+    float: The area of the rectangle.
+    """
+    area = length * width
+    return area
